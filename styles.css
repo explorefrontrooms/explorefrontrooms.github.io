@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    background-color: black;
+}
+
+#container {
+    width: fit-content;
+    height: fit-content;
+}
+
+#header {
+    width: fit-content;
+    text-align: center;
+}
+
+#title {
+    width: auto;
+}
+
+#nav {
+    height: 30px;
+}
+
+#main {
+    width: fit-content;
+    background-color: green;
+    height: fit-content;
+    border-radius: 3px;
+}
+
+#footer {
+    background-color: green;
+    text-decoration-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 80px;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient( #008000, #00FF00);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient( #3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+
+p {
+    font-size: 30px;
+    color: white;
+}
+
+img {
+    width: 40%;
+}
+
+a {
+    font-size: 20px;
+}
